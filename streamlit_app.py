@@ -35,5 +35,5 @@ df2 = my_cur.fetchone()
 streamlit.image(df2[0], width=400, caption= product_caption)
 
 streamlit.write('Price: ', df2[1])
-streamlit.write('Sizes available: ' df2[2])
+streamlit.write('Sizes available: ', df2[2])
 streamlit.write(df2[3])
